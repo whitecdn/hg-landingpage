@@ -61,7 +61,7 @@ export function Hero() {
 
                 <FadeIn delay={0.3}>
                     <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight max-w-6xl bg-clip-text text-transparent bg-gradient-to-b from-white via-white to-white/40 mb-8 mx-auto leading-[1.05] drop-shadow-2xl">
-                        Built by Vacation Rental Managers who are tired of <span className="text-accent inline-block relative whitespace-nowrap">
+                        Built by & for VRMs who are tired of <span className="text-accent inline-block relative whitespace-nowrap">
                             <svg className="absolute w-full h-3 -bottom-1 left-0 text-accent opacity-60" viewBox="0 0 100 10" preserveAspectRatio="none">
                                 <path d="M0 5 Q 50 10 100 5" stroke="currentColor" strokeWidth="4" fill="none" />
                             </svg>

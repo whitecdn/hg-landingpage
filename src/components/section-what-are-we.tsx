@@ -24,15 +24,14 @@ export function SectionWhatAreWe() {
                     <div className="lg:w-1/2 flex flex-col lg:mt-32">
                         <FadeIn delay={0.4} once={false}>
                             {/* Block 1: Network (Full Width) */}
-                            <div className="group relative border-t border-white/20 py-12 md:py-16">
-                                <div className="absolute inset-0 bg-gradient-to-r from-accent/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-700" />
-                                <div className="relative z-10 flex flex-col md:flex-row gap-8 items-start">
-                                    <div className="w-16 h-16 rounded-full border border-white/20 flex items-center justify-center text-white shrink-0 group-hover:scale-110 group-hover:border-accent group-hover:text-accent transition-all duration-500 bg-[#0a0a0a]">
+                            <div className="group border border-white/20 bg-black hover:bg-white hover:text-black transition-colors duration-300 p-8 md:p-12 mb-8">
+                                <div className="flex flex-col md:flex-row gap-8 items-start">
+                                    <div className="w-16 h-16 bg-white text-black flex items-center justify-center shrink-0 group-hover:bg-black group-hover:text-white transition-colors duration-300">
                                         <Users size={28} strokeWidth={1} />
                                     </div>
                                     <div>
-                                        <h3 className="text-2xl md:text-4xl font-bold text-white mb-6 leading-tight">Private Network</h3>
-                                        <p className="text-lg text-muted-foreground font-light leading-relaxed group-hover:text-white transition-colors max-w-lg">
+                                        <h3 className="text-2xl md:text-4xl font-bold mb-6 leading-tight">Private Network</h3>
+                                        <p className="text-lg text-muted-foreground font-light leading-relaxed group-hover:text-black transition-colors max-w-lg">
                                             Connect with vetted operators who are scaling real businesses. No gurus, just operators.
                                         </p>
                                     </div>
@@ -40,32 +39,34 @@ export function SectionWhatAreWe() {
                             </div>
 
                             {/* Block 2 & 3: Split Row */}
-                            <div className="grid grid-cols-1 md:grid-cols-2">
+                            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                                 {/* Proprietary Data */}
-                                <div className="group relative border-t border-white/20 py-12 md:py-16 md:pr-8 md:border-r border-white/10">
-                                    <div className="absolute inset-0 bg-gradient-to-br from-blue-500/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-700" />
-                                    <div className="relative z-10">
-                                        <div className="w-12 h-12 rounded-full border border-white/20 flex items-center justify-center text-white mb-8 group-hover:border-blue-400 group-hover:text-blue-400 transition-all duration-500 bg-[#0a0a0a]">
+                                <div className="group border border-white/20 bg-black hover:bg-white hover:text-black transition-colors duration-300 p-8">
+                                    <div className="flex flex-col gap-6 h-full justify-between">
+                                        <div className="w-12 h-12 bg-white text-black flex items-center justify-center group-hover:bg-black group-hover:text-white transition-colors duration-300">
                                             <BarChart3 size={20} strokeWidth={1} />
                                         </div>
-                                        <h3 className="text-xl font-bold text-white mb-4">Proprietary Data</h3>
-                                        <p className="text-sm text-muted-foreground font-light leading-relaxed group-hover:text-white transition-colors">
-                                            Benchmark your performance against the top 1% of the industry.
-                                        </p>
+                                        <div>
+                                            <h3 className="text-xl font-bold mb-4">Proprietary Data</h3>
+                                            <p className="text-sm text-muted-foreground font-light leading-relaxed group-hover:text-black transition-colors">
+                                                Benchmark your performance against the top 1% of the industry.
+                                            </p>
+                                        </div>
                                     </div>
                                 </div>
 
                                 {/* Purchase Power */}
-                                <div className="group relative border-t border-white/20 py-12 md:py-16 md:pl-8">
-                                    <div className="absolute inset-0 bg-gradient-to-bl from-purple-500/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-700" />
-                                    <div className="relative z-10">
-                                        <div className="w-12 h-12 rounded-full border border-white/20 flex items-center justify-center text-white mb-8 group-hover:border-purple-400 group-hover:text-purple-400 transition-all duration-500 bg-[#0a0a0a]">
+                                <div className="group border border-white/20 bg-black hover:bg-white hover:text-black transition-colors duration-300 p-8">
+                                    <div className="flex flex-col gap-6 h-full justify-between">
+                                        <div className="w-12 h-12 bg-white text-black flex items-center justify-center group-hover:bg-black group-hover:text-white transition-colors duration-300">
                                             <Scale size={20} strokeWidth={1} />
                                         </div>
-                                        <h3 className="text-xl font-bold text-white mb-4">Purchase Power</h3>
-                                        <p className="text-sm text-muted-foreground font-light leading-relaxed group-hover:text-white transition-colors">
-                                            Leverage our collective size to negotiate enterprise-level deals.
-                                        </p>
+                                        <div>
+                                            <h3 className="text-xl font-bold mb-4">Purchase Power</h3>
+                                            <p className="text-sm text-muted-foreground font-light leading-relaxed group-hover:text-black transition-colors">
+                                                Leverage our collective size to negotiate enterprise-level deals.
+                                            </p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>

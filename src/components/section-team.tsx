@@ -29,10 +29,9 @@ export function SectionTeam() {
 
                             <div className="relative grid grid-cols-2 gap-4">
                                 <div className="space-y-4 pt-12">
-                                    <div className="aspect-[3/4] bg-white/5 rounded-2xl border border-white/10 overflow-hidden relative group">
-                                        <img src="/team.jpg" alt="Team Offsite" className="absolute inset-0 w-full h-full object-cover opacity-80 group-hover:opacity-100 group-hover:scale-110 transition-all duration-700" />
-                                        <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent" />
-                                        <span className="absolute bottom-4 left-4 text-white font-mono text-xs z-10">OFFSITE 2024</span>
+                                    <div className="aspect-[4/3] bg-white/5 rounded-2xl border border-white/10 overflow-hidden relative group">
+                                        <img src="/dinner-party.jpg" alt="Team Dinner" className="absolute inset-0 w-full h-full object-cover opacity-80 group-hover:opacity-100 group-hover:scale-110 transition-all duration-700" />
+                                        <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
                                     </div>
                                     <div className="aspect-square bg-white/5 rounded-2xl border border-white/10 overflow-hidden relative group">
                                         <img src="/social.jpg" alt="Community Social" className="absolute inset-0 w-full h-full object-cover opacity-60 group-hover:opacity-100 transition-all duration-700" />
@@ -42,10 +41,9 @@ export function SectionTeam() {
                                     <div className="aspect-square bg-white/5 rounded-2xl border border-white/10 overflow-hidden relative group">
                                         <img src="/team-meeting.jpg" alt="Strategy Session" className="absolute inset-0 w-full h-full object-cover opacity-60 group-hover:opacity-100 transition-all duration-700" />
                                     </div>
-                                    <div className="aspect-[3/4] bg-white/5 rounded-2xl border border-white/10 overflow-hidden relative group">
-                                        <img src="/team.jpg" alt="Mastermind Event" className="absolute inset-0 w-full h-full object-cover opacity-80 group-hover:opacity-100 group-hover:scale-110 transition-all duration-700" />
-                                        <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent" />
-                                        <span className="absolute bottom-4 left-4 text-white font-mono text-xs z-10">MASTERMIND</span>
+                                    <div className="aspect-[4/3] bg-white/5 rounded-2xl border border-white/10 overflow-hidden relative group">
+                                        <img src="/outdoor-group.jpg" alt="Outdoor Group" className="absolute inset-0 w-full h-full object-cover opacity-80 group-hover:opacity-100 group-hover:scale-110 transition-all duration-700" />
+                                        <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
                                     </div>
                                 </div>
                             </div>
